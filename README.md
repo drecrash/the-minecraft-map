@@ -2,9 +2,9 @@
 
 **Quick Links**
 
-- Project Article: [article to be added]
+- [Project Article](https://www.andreprakash.com/posts/minecraft-map/)
 - Website: [website to be added]
-- Documentation: [to be added]
+- ![Documentation](https://github.com/drecrash/the-minecraft-map/tree/main/DOCS)
 
 ![Graph visualized in Gephi](./media/gephiGraphRender.png)
 
@@ -47,7 +47,14 @@ For more details, please check out any of the quick links above.
 
 ## How to run yourself
 
+**Missing Data**
+
+GitHub doesn't support large files like the data analysis files used in this project. I am currently working on getting these uploaded to some sort of file storage service.
+
+When they're available, they'll be linked at the top of the ReadMe and this section will be replaced with usage instructions.
+
 **Install requirements**
+
 From the root directory:
 `pip install -r requirements.txt`
 
