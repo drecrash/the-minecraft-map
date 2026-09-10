@@ -1,0 +1,112 @@
+:root {
+    --bg: #f4f1e9;
+    --text: #111111;
+    --link: #0000ee;
+    --link-visited: #551a8b;
+    --accent: #3f7d20;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+    color: var(--link);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--link-visited);
+}
+
+h1 {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 8px;
+}
+
+.site-nav {
+    border-bottom: 1px solid var(--text);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.site-nav a {
+    margin-right: 16px;
+}
+
+.site-nav a:hover {
+    color: var(--accent);
+}
+
+button, input {
+    background-color: #ffffff;
+    border: 1px solid var(--text);
+    border-radius: 0;
+    padding: 4px 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.pathchannel, .pathvideo {
+    padding: 8px 16px;
+    border: 1px solid var(--text);
+    font-weight: bold;
+    text-align: center;
+}
+
+.pathchannel {
+    background-color: #b7e4c7;
+}
+
+.pathvideo {
+    background-color: #c3c3f7;
+}
+
+.pathconnector {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    padding: 2px 0;
+}
+
+.pathconnector::before {
+    content: "\2193";
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.globalfigures-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px;
+}
+
+.globalfigures-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.chart-card {
+    flex: 1 1 400px;
+    min-width: 320px;
+    background-color: var(--bg);
+    border: 1px solid var(--text);
+    padding: 16px;
+}
+
+.chart-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
