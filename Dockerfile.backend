@@ -10,4 +10,4 @@ COPY data/ ./data/
 
 EXPOSE 5000
 
-CMD ["python", "backend/graph_api.py"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "backend.graph_api:app"]
