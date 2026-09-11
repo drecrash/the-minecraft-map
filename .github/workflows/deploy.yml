@@ -16,5 +16,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /root/the-minecraft-map
-            git pull origin production
+            git pull origin prod
+            docker compose down
             docker compose up --build -d

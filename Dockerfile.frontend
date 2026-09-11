@@ -8,6 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY dash_site/ ./dash_site/
 COPY data/ ./data/
 
+ENV PYTHONPATH=/app/dash_site
 EXPOSE 8050
 
 CMD ["gunicorn", "--bind", "0.0.0.0:8050", "dash_site.app:server"]
