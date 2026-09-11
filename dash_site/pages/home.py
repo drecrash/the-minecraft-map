@@ -19,13 +19,17 @@ def get_path_path(target):
 
 def layout():
 
-    intro_text = ["""
-        Welcome to the Minecraft Map project!\n
-        This project is an attempt to graph the Minecraft community on YouTube.\n
-        More details can be found here(to be added), but essentially: if one creator mentioned another: they're linked!\n
-        """,
+    intro_text = [
+        html.P([
+        "Welcome to the Minecraft Map project!\nThis project is an attempt to graph the Minecraft community on YouTube.\nMore details can be found "
+        ,
+        html.A("here,", href="https://github.com/drecrash/the-minecraft-map"),
+        " but essentially: if one creator mentioned another: they're linked!\n"]),
         html.Br(),
-        "If you're curious about the overall graph statistics, head "
+        "If you want to see the graph itself, head "
+        ,
+        dcc.Link("here", href=get_path_path("Graph Explorer")),
+        "\nIf you're curious about the overall graph statistics, head "
         ,
         dcc.Link("here", href=get_path_path("Global Analytics")),
         "\nTo see the stats of your favorite creator, head ",
