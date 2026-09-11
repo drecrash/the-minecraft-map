@@ -1,0 +1,13 @@
+FROM python:3.14-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY dash_site/ ./dash_site/
+COPY data/ ./data/
+
+EXPOSE 8050
+
+CMD ["python", "dash_site/app.py"]

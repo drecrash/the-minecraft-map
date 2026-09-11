@@ -1,0 +1,28 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    restart: always
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - backend
+    env_file:
+      - .env
+    environment:
+      - API_URL=http://backend:5000
