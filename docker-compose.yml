@@ -15,7 +15,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.frontend
-    restart: always
+    restart: on-failure
     ports:
       - "8050:8050"
     volumes:

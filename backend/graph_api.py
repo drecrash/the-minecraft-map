@@ -11,7 +11,13 @@ import numpy as np
 class GraphData:
 
     def __init__(self, graph_path,lookup_path):
-        self.G = igraph.Graph.Read_GraphML(graph_path)
+        with warnings.catch_warnings():
+            warnings.filterwarnings(
+                "ignore",
+                message=r"Could not add vertex ids, there is already an 'id' vertex attribute\.",
+                category=RuntimeWarning,
+            )
+            self.G = igraph.Graph.Read_GraphML(graph_path)
         self.id_to_index = {v["id"]: v.index for v in self.G.vs}
 
         self.sorted_names = sorted( [v["name"].lower() for v in self.G.vs] )

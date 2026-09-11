@@ -1,0 +1,177 @@
+{
+    "Adult Comedy": {
+        "insularity": 0.7578086672117743,
+        "internal": 4634,
+        "external": 1481
+    },
+    "Vloggers/Traditional Youtube": {
+        "insularity": 0.7822919585318017,
+        "internal": 5584,
+        "external": 1554
+    },
+    "IRL Comedy Sketches": {
+        "insularity": 0.8188235294117647,
+        "internal": 348,
+        "external": 77
+    },
+    "Gaming Music": {
+        "insularity": 0.8089304257528557,
+        "internal": 3116,
+        "external": 736
+    },
+    "Spanish": {
+        "insularity": 0.845979020979021,
+        "internal": 4839,
+        "external": 881
+    },
+    "Educational": {
+        "insularity": 0.7868217054263565,
+        "internal": 406,
+        "external": 110
+    },
+    "Internet Comedy": {
+        "insularity": 0.7747759978278578,
+        "internal": 5707,
+        "external": 1659
+    },
+    "Mature Minecraft/Hermitcraft": {
+        "insularity": 0.8068327839544108,
+        "internal": 28883,
+        "external": 6915
+    },
+    "Children/International": {
+        "insularity": 0.7390909090909091,
+        "internal": 4065,
+        "external": 1435
+    },
+    "Brands": {
+        "insularity": 0.8514456630109671,
+        "internal": 854,
+        "external": 149
+    },
+    "Hardcore Gaming": {
+        "insularity": 0.8430141287284144,
+        "internal": 537,
+        "external": 100
+    },
+    "Roleplay": {
+        "insularity": 0.7108268615806305,
+        "internal": 1556,
+        "external": 633
+    },
+    "Indonesian": {
+        "insularity": 0.9259259259259259,
+        "internal": 50,
+        "external": 4
+    },
+    "Music 1": {
+        "insularity": 0.791307347361159,
+        "internal": 2294,
+        "external": 605
+    },
+    "Guns/Military": {
+        "insularity": 0.7745792736935341,
+        "internal": 1749,
+        "external": 509
+    },
+    "Hypixel": {
+        "insularity": 0.8278392600108544,
+        "internal": 35083,
+        "external": 7296
+    },
+    "The Sims": {
+        "insularity": 0.7037037037037037,
+        "internal": 57,
+        "external": 24
+    },
+    "Analog Horror/Undertale": {
+        "insularity": 1.0,
+        "internal": 44,
+        "external": 0
+    },
+    "Mixed": {
+        "insularity": 0.6824512534818942,
+        "internal": 245,
+        "external": 114
+    },
+    "Horror/Kids": {
+        "insularity": 0.7497846683893196,
+        "internal": 1741,
+        "external": 581
+    },
+    "Core MCYT": {
+        "insularity": 0.6986080814376233,
+        "internal": 13451,
+        "external": 5803
+    },
+    "Pokemon": {
+        "insularity": 0.7931937172774869,
+        "internal": 7878,
+        "external": 2054
+    },
+    "Shooter Games": {
+        "insularity": 0.7206008583690987,
+        "internal": 1679,
+        "external": 651
+    },
+    "Streamers/Twitch": {
+        "insularity": 0.710691823899371,
+        "internal": 4972,
+        "external": 2024
+    },
+    "German": {
+        "insularity": 0.9001731102135025,
+        "internal": 1560,
+        "external": 173
+    },
+    "Music 2": {
+        "insularity": 1.0,
+        "internal": 18,
+        "external": 0
+    },
+    "Animators": {
+        "insularity": 0.7696093509689327,
+        "internal": 2502,
+        "external": 749
+    },
+    "Indian": {
+        "insularity": 0.8249594813614263,
+        "internal": 1018,
+        "external": 216
+    },
+    "Brazilian": {
+        "insularity": 0.8565950920245399,
+        "internal": 1117,
+        "external": 187
+    },
+    "Real World Documentary": {
+        "insularity": 0.7276785714285714,
+        "internal": 163,
+        "external": 61
+    },
+    "SCP/Lore/Anime": {
+        "insularity": 0.8888888888888888,
+        "internal": 16,
+        "external": 2
+    },
+    "Yogscast": {
+        "insularity": 0.7842835130970724,
+        "internal": 509,
+        "external": 140
+    },
+    "French": {
+        "insularity": 0.8311653835943722,
+        "internal": 3131,
+        "external": 636
+    },
+    "Geometry Dash": {
+        "insularity": 0.844671201814059,
+        "internal": 2235,
+        "external": 411
+    },
+    "Modern MCYT": {
+        "insularity": 0.7632458062430404,
+        "internal": 21248,
+        "external": 6591
+    }
+}

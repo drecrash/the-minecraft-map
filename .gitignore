@@ -16,5 +16,4 @@ gephi_data
 /dash_site/pages/__pycache__
 *.pyc
 *.pyo
-/data/analysis
 /data/resources
