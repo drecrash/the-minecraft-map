@@ -20,6 +20,7 @@ app.layout = html.Div([
     ], className="site-nav"),
     dash.page_container
 ])
+server=app.server
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",debug=False)
